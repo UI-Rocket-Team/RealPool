@@ -12,8 +12,8 @@ public class Networking : NetworkBehaviour
 
     private void OnGUI()
     {
-        //GUI.TextField(new Rect(25, Screen.height - 40, 100, 30), "new");
-        if (GUI.Button(new Rect(130,  Screen.height - 40, 80, 30),"Change"))
+        //GUI.TextField(new Rect(25, Scre   en.height - 40, 100, 30), "new");
+        if (GUI.Button(new Rect(130,  Screen.height - 100, 400, 60),"Change"))
         {
 
             data = Input.acceleration * 5.0F;
